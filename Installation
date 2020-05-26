@@ -1,0 +1,15 @@
+unzip all the fallowing 3 tar files
+
+BPM_Adv_V856_Linux_x86_1_of_3.tar
+BPM_Adv_V856_Linux_x86_2_of_3.tar
+BPM_Adv_V856_Linux_x86_3_of_3.tar
+
+using 
+
+tar -xvf BPM_Adv_V856_Linux_x86_1_of_3.tar
+
+---------------------------------------------------
+
+go to /tmp/BPM_8.5.5/IM64
+
+./installc -acceptLicense input /tmp/BPM_8.5.5/responsefiles/BPM/bpmAdv_linux_response_root_64bit.xml -log /tmp/BPM_8.5.5/silent_install.log
